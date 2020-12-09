@@ -1,0 +1,41 @@
+{
+  "name": "@uquuu/tools",
+  "version": "0.1.0",
+  "description": "常用工具箱",
+  "main": "dist/tools.umd.min.js",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name tools ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "pub": "npm run build && npm publish --access public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.6.5",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanghaida/tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanghaida/tools/issues"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "haaid",
+  "license": "MIT"
+}
