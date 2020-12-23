@@ -1,4 +1,10 @@
-export const APIs = {
+import Cache from './apis/Cache';
+import * as Console from './apis/Console';
 
+export default {
+    Cache,
+    ...Console,
 };
-export default APIs;
+
+export * from './apis/Cache';
+export * from './apis/Console';

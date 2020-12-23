@@ -3,7 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Tools from '../src';
 import App from './App.vue';
 
+// Tools Begin
 console.log(Tools);
+// Tools End
 
 const router = createRouter({
     history: createWebHistory(),

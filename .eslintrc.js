@@ -18,8 +18,8 @@ module.exports = {
         'no-empty': ['error', { allowEmptyCatch: true }],
         // 推荐 warn
         'max-len': ['warn', { code: 200 }],
-        'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+        'no-console': 'warn',
+        'no-debugger': 'warn',
         // 关闭 off
         'no-param-reassign': 'off',
     },
